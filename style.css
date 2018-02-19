@@ -28,6 +28,10 @@ body{
 	background: #eee;
 }
 
+html{
+	overflow-y: scroll;
+}
+
 #page{
 	margin: 20px;
 }
