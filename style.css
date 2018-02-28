@@ -10,12 +10,14 @@ h1, h2, h3, h4{
 }
 h1{ font-size: 2.0em; }
 h2{ font-size: 1.5em; }
+/*
 a{
 	color: black;
 	text-decoration: none;
 }
 	a:hover,
 	a:active{ text-decoration: underline; }
+*/
 
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
@@ -43,9 +45,8 @@ html{
 	margin-top: 5px;
 	font-family: georgia;
 	display: inline-block;
-	
-	
 }
+/*
 #nav{
 	width: 60%;
 	display: inline-block;
@@ -67,6 +68,69 @@ html{
 				box-shadow: 0px 1px 1px #666;
 			}
 			#nav ul li a:active{ background-color: blue; }
+*/
+#nav{ float:right; 
+	
+ }
+
+@media(max-width:750px){
+	#nav{display:none;
+	}
+	#logo{width:100%;
+	text-align:center;}
+	#nav-just{text-align: center;
+	width:100%;
+	margin:30px 0;}
+}
+@media(min-width:751px){
+	#nav-just{display:none;}
+}
+
+.btn-navigator { 
+  color: #FFFFFF; 
+  background-color: #00BECC; 
+  border-color: #00EEFF; 
+} 
+ 
+.btn-navigator:hover, 
+.btn-navigator:focus, 
+.btn-navigator:active, 
+.btn-navigator.active, 
+.open .dropdown-toggle.btn-navigator { 
+  color: #FFFFFF; 
+  background-color: #39D499; 
+  border-color: #00EEFF; 
+} 
+ 
+.btn-navigator:active, 
+.btn-navigator.active, 
+.open .dropdown-toggle.btn-navigator { 
+  background-image: none; 
+} 
+ 
+.btn-navigator.disabled, 
+.btn-navigator[disabled], 
+fieldset[disabled] .btn-navigator, 
+.btn-navigator.disabled:hover, 
+.btn-navigator[disabled]:hover, 
+fieldset[disabled] .btn-navigator:hover, 
+.btn-navigator.disabled:focus, 
+.btn-navigator[disabled]:focus, 
+fieldset[disabled] .btn-navigator:focus, 
+.btn-navigator.disabled:active, 
+.btn-navigator[disabled]:active, 
+fieldset[disabled] .btn-navigator:active, 
+.btn-navigator.disabled.active, 
+.btn-navigator[disabled].active, 
+fieldset[disabled] .btn-navigator.active { 
+  background-color: #00BECC; 
+  border-color: #00EEFF; 
+} 
+ 
+.btn-navigator .badge { 
+  color: #00BECC; 
+  background-color: #FFFFFF; 
+}
 
 #content{
 	margin: 30px 0;

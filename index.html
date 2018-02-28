@@ -10,6 +10,11 @@
 	<meta name="description" content="" />
 
 <!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->	
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="file:///D|/Documents/GIMM 300/team website/Team-Website/style.css" type="text/css" />
 	
 </head>
@@ -23,14 +28,39 @@
 				<h1><a href="/" id="logoLink">Brennon and the Boys</a></h1>
 			</div>
 			<div id="nav">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="projects.html">Projects</a></li>
-				</ul>	
+				<div class="btn-group">
+					<button type="button" class="btn btn-navigator">Home</button>
+					<button type="button" class="btn btn-navigator">Projects</button>
+				
+					<button type="button" class="btn btn-navigator dropdown-toggle" data-toggle="dropdown">
+    Team <span class="caret"></span></button>
+    					<ul class="dropdown-menu" role="menu">
+      						<li class="dropdown-item"><a href="#">Nicholai</a></li>
+      						<li class="dropdown-item"><a href="#">Travis</a></li>
+							<li class="dropdown-item"><a href="#">Brennon</a></li>
+						</ul>
+				</div>
 			</div>
+			
+			<div id="nav-just">
+				<div class="btn-group btn-group-lg">
+					<button type="button" class="btn btn-navigator">Home</button>
+					<button type="button" class="btn btn-navigator">Projects</button>
+				
+					<button type="button" class="btn btn-navigator dropdown-toggle" data-toggle="dropdown">
+    Team <span class="caret"></span></button>
+    					<ul class="dropdown-menu" role="menu">
+      						<li class="dropdown-item"><a href="#">Nicholai</a></li>
+      						<li class="dropdown-item"><a href="#">Travis</a></li>
+							<li class="dropdown-item"><a href="#">Brennon</a></li>
+						</ul>
+				</div>
+			</div>
+			
 		</div>
+		
 	  <div id="content">
+		  
 			<h2>Home</h2>
 			<p>
 				This is the team wesbsite for the GIMM 300 (monday section) class. Our team is formally referred to as "Brennon and the Boys" and we are on a quest to become known far and wide for our coding prowess. Welcome, stay a while.
