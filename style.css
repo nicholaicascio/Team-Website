@@ -9,7 +9,7 @@ h1, h2, h3, h4{
 	margin: 0 0 .5em 0;
 }
 h1{ font-size: 2.0em; }
-h2{ font-size: 1.5em; }
+h2{ font-size: 2.0em; }
 /*
 a{
 	color: black;
@@ -23,7 +23,7 @@ a{
 
 body{
     font-family: arial; 
-	font-size: 80%; 
+	font-size: 90%; 
 	line-height: 1.2em; 
 	width: 100%; 
 	margin: 0; 
@@ -39,14 +39,14 @@ html{
 }
 
 
-
+/*
 #logo{
 	width: 40%;
 	margin-top: 5px;
 	font-family: georgia;
 	display: inline-block;
 }
-/*
+
 #nav{
 	width: 60%;
 	display: inline-block;
@@ -68,11 +68,11 @@ html{
 				box-shadow: 0px 1px 1px #666;
 			}
 			#nav ul li a:active{ background-color: blue; }
-*/
+
 #nav{ float:right; 
 	
  }
-
+*/
 @media(max-width:750px){
 	#nav{display:none;
 	}
@@ -133,7 +133,7 @@ fieldset[disabled] .btn-navigator.active {
 }
 
 #content{
-	margin: 30px 0;
+	margin: 30px;
 	/*margin-right:400px;
 	margin-left:400px;*/
 	background: white;
@@ -145,14 +145,14 @@ fieldset[disabled] .btn-navigator.active {
 	#content{
 	margin-right:300px;
 	margin-left:300px;
-	}
+	}/*
 	#bar{
 		margin-left:300px;
 		margin-right:300px;
 		margin-top:100px;
 		margin-bottom:100px;
 	}
-	/*#nav{
+	#nav{
 		
 		margin-right:300px;
 	}
@@ -173,6 +173,7 @@ fieldset[disabled] .btn-navigator.active {
 		color: grey;
 	}
 
-/* multiple styles seperated by a , */
+/* multiple styles seperated by a , 
 #content,
 ul li a{ box-shadow: 0px 1px 1px #999; }
+*/
